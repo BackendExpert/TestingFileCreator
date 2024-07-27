@@ -2,6 +2,9 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
+const fs = require('fs-extra');
+const path = require('path');
+const argv = require('yargs').argv;
 
 async function main() {
   try {
