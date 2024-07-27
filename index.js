@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
 const inquirer = require('inquirer');
 const fs = require('fs-extra');
 const path = require('path');
